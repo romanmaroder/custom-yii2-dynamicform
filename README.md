@@ -11,10 +11,6 @@ It is widget to yii2 framework to clone form elements in a nested manner, mainta
 ## Installation
 
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
-
-Either run
-
 ```
 "romanmaroder/yii2-dynamicform": "*"
 ```
