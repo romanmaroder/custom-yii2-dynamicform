@@ -16,13 +16,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist wbraganca/yii2-dynamicform "*"
-```
-
-or add
-
-```
-"wbraganca/yii2-dynamicform": "*"
+"romanmaroder/yii2-dynamicform": "*"
 ```
 
 to the require section of your `composer.json` file.
