@@ -1,5 +1,5 @@
 {
-    "name": "romanmaroder/yii2-dynamicform",
+    "name": "romanmaroder/custom-yii2-dynamicform",
     "description": "It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.",
     "keywords": [
         "romanmaroder",
@@ -14,9 +14,9 @@
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/romanmaroder/yii2-dynamicform/issues",
-        "wiki": "https://github.com/romanmaroder/yii2-dynamicform/wiki/",
-        "source": "https://github.com/romanmaroder/yii2-dynamicform"
+        "issues": "https://github.com/romanmaroder/custom-yii2-dynamicform/issues",
+        "wiki": "https://github.com/romanmaroder/custom-yii2-dynamicform/wiki/",
+        "source": "https://github.com/romanmaroder/custom-yii2-dynamicform"
     },
     "authors": [
         {
@@ -28,7 +28,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/romanmaroder/yii2-dynamicform"
+            "url": "https://github.com/romanmaroder/custom-yii2-dynamicform"
         }
     ],
     "require": {
