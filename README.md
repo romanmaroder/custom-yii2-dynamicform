@@ -1,21 +1,21 @@
 # yii2-dynamicform
-
+Ссылка на официальный репозиторий https://wbraganca.com/img/yii2-dynamicform
 [![Latest Version](https://img.shields.io/github/release/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://github.com/wbraganca/yii2-dynamicform/releases)
 [![Software License](http://img.shields.io/badge/license-BSD3-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://packagist.org/packages/wbraganca/yii2-dynamicform)
 
 
-It is widget to yii2 framework to clone form elements in a nested manner, maintaining accessibility.
+Это виджет фреймворка yii2 для клонирования элементов формы во вложении с сохранением доступности.
 ![yii2-dynamicform](https://wbraganca.com/img/yii2-dynamicform/sample.jpg)
 
-## Installation
+## Установка
 
-
+Добавить
 ```
 "romanmaroder/yii2-dynamicform": "*"
 ```
+в требуемый раздел вашего файла `composer.json`.
 
-to the require section of your `composer.json` file.
 
 
 ## Demos
