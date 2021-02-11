@@ -1,5 +1,6 @@
 # yii2-dynamicform
 Ссылка на официальный репозиторий https://wbraganca.com/img/yii2-dynamicform
+
 [![Latest Version](https://img.shields.io/github/release/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://github.com/wbraganca/yii2-dynamicform/releases)
 [![Software License](http://img.shields.io/badge/license-BSD3-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/wbraganca/yii2-dynamicform.svg?style=flat-square)](https://packagist.org/packages/wbraganca/yii2-dynamicform)
@@ -8,7 +9,9 @@
 Это виджет фреймворка yii2 для клонирования элементов формы во вложении с сохранением доступности.
 ![yii2-dynamicform](https://wbraganca.com/img/yii2-dynamicform/sample.jpg)
 
+
 ## Установка
+
 
 Добавить
 ```
@@ -18,27 +21,27 @@
 
 
 
-## Demos
+## Демо
 
 * [Demo 1](https://wbraganca.com/yii2extensions/dynamicform-demo1/) - (Address Book).
 * [Demo 2](https://wbraganca.com/yii2extensions/dynamicform-demo2/) - (File Upload).
 * [Demo 3](https://wbraganca.com/yii2extensions/dynamicform-demo3/) - (Nested Dynamic Form).
 
 
-## Usage
+## Использование
 
 
-### Hypothetical Scenario
+### Возможная схема
 
 ![Database](https://wbraganca.com/img/yii2-dynamicform/hypothetical-scenario.jpg)
 
-### The View
+### Вид
 
 ```php
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use wbraganca\dynamicform\DynamicFormWidget;
+use romanmaroder\dynamicform\DynamicFormWidget;
 ?>
 
 <div class="customer-form">
@@ -131,7 +134,7 @@ use wbraganca\dynamicform\DynamicFormWidget;
 </div>
 ```
 
-### Javascript Events
+### Javascript события
 
 ```javascript
 
@@ -161,7 +164,7 @@ $(".dynamicform_wrapper").on("limitReached", function(e, item) {
 ```
 
 
-### The Controller (sample code)
+### Контроллер (пример кода)
 
 ```php
 <?php
@@ -308,7 +311,7 @@ class CustomerController extends Controller
 }
 ```
 
-### Model Class
+### Модель
 
 ```php
 <?php
@@ -359,15 +362,14 @@ class Model extends \yii\base\Model
 ```
 
 
-### To zero or more elements (use the following code in your view file)
-
+### Обнулить или несколько элементов (используйте следующий код в вашем файле представления)
 
 ```php
 
 <?php
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use wbraganca\dynamicform\DynamicFormWidget;
+use romanmaroder\dynamicform\DynamicFormWidget;
 ?>
 
 <div class="customer-form">
