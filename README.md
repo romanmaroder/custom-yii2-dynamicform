@@ -17,7 +17,7 @@
 ```
 "romanmaroder/yii2-dynamicform": "*"
 ```
-в требуемый раздел вашего файла `composer.json`.
+в require раздел вашего файла `composer.json`.
 
 
 
